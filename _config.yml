@@ -45,3 +45,5 @@ services:
     icon: solid fa-bolt
 baseurl: ""
 url: "https://impresionesgraficasneiva.com"
+plugins:
+  - jekyll-sitemap

@@ -1,25 +1,15 @@
 ---
 permalink: /404.html
-layout: default
+layout: error
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <h1>404</h1>
+    <h3>Somos {{ site.title }}</h3>
+    <p class="major">Esta página no ha sido encontrada :(</p>
+    <ul class="actions stacked">
+      <li><a href="{{ site.url }}" class="button big wide">Ir a la página principal</a></li>
+    </ul>
+  </div>
+</section>
