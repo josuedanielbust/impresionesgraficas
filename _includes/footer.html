@@ -1,0 +1,25 @@
+      <footer class="wrapper style1">
+        <div class="inner">
+          <div class="items style1 medium">
+            <section>
+              <h3>Horarios de atención</h3>
+              {% for hour in site.contact.hours.print %}
+                <h4>{{ hour[0] }}</h4>
+                <p>{{ hour[1] }}</p>
+              {% endfor %}
+            </section>
+            <section>
+              <h3>Nos encontramos en</h3>
+              <p>
+                <span>{{ site.contact.address.street }}</span>
+                <br />
+                <span>{{ site.contact.address.locality }}, {{ site.contact.address.region }}</span>
+              </p>
+              <p>Teléfono: <a href="tel:{{ site.contact.phone }}">{{ site.contact.phone }}</a></p>
+            </section>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

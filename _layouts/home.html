@@ -1,0 +1,21 @@
+{% include head.html %}
+
+<section class="wrapper style1 align-center">
+  <div class="inner">
+    <h1>{{ site.title }}</h1>
+    <p class="major">{{ site.description }}</p>
+    <ul class="actions stacked">
+      <li><a href="tel:{{ site.contact.phone }}" class="button big wide">¡Llamar ya!</a></li>
+    </ul>
+    <div class="items style1 medium">
+      {% for service in site.services %}
+        <section>
+          <span class="icon style2 major {{ service.icon }}"></span>
+          <h3>{{ service.title }}</h3>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}

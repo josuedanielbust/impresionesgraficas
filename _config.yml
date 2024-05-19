@@ -1,0 +1,47 @@
+title: Impresiones Gráficas Neiva
+email: your-email@example.com
+description: >-
+  Impresiones de calidad con más de 45 años de experiencia.
+contact:
+  address:
+    street: "Calle 12 # 3-64"
+    locality: Neiva
+    region: Huila
+    postalCode: 410010
+  phone: +57 315 8471718
+  hours:
+    print:
+      -
+        - Lunes a Viernes
+        - 8:00am - 12:00m y 2:00pm - 6:00pm
+      -
+        - Sábados
+        - 8:00am - 12:00m
+    json:
+      - Mo,Fr 8:00-12:00
+      - Mo,Fr 14:00-18:00
+      - Sa 8:00-12:00
+services:
+  -
+    title: Impresiones
+    icon: solid fa-desktop
+  -
+    title: Impresiones a Gran Formato
+    icon: solid fa-desktop
+  - 
+    title: Papelería Comercial
+    icon: fa-envelope
+  - 
+    title: Papelería Publicitaria
+    icon: solid fa-desktop
+  - 
+    title: Pendones
+    icon: solid fa-desktop
+  -
+    title: Pasacalles
+    icon: solid fa-desktop
+  -
+    title: Avisos luminosos
+    icon: solid fa-bolt
+baseurl: ""
+url: "https://impresionesgraficasneiva.com"
